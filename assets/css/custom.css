@@ -8,6 +8,7 @@ body {
     color: #6b6e80;
     background-color: #fff;
     overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
 }
 a {
     color: #494949;
@@ -322,6 +323,19 @@ span.bar {
 
 .skill{
     background-color: #EEEEEE;
+}
+
+.period-about-right{
+    margin: 0;
+    text-align: end;
+}
+
+.name-about{
+    margin: 0;color: black;text-align: end;
+}
+
+.ket-about{
+    color: #3498DB;text-align: end;
 }
 
 ._981>span{
