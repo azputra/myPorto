@@ -85,12 +85,26 @@ section {
 .navbar-default.scroll .navbar-brand:focus {
     color: #494949;
 }
+@media (min-width: 1388px) {
+    .icon-show-mobile{
+        display: none !important;
+    }
+}
 @media (max-width: 1388px) {
     .lottie-hide{
         display: none;
     }
     .vertical-line{
         background:none !important;
+    }
+    .mobile-text-start{
+        text-align: start !important;
+    }
+    .icon-calendar-left{
+        display: none !important;
+    }
+    .icon-show-mobile{
+        display: inline !important;
     }
 }
 @media (min-width: 768px) {
@@ -336,6 +350,22 @@ span.bar {
 
 .ket-about{
     color: #3498DB;text-align: end;
+}
+
+.text-end{
+    text-align: end;
+}
+
+.padding-row-about {
+    padding-left: 25px;padding-right: 25px;
+}
+
+.icon-calendar-left{
+    margin-left: 15px;
+}
+
+.icon-calendar-right{
+    margin-right: 15px;
 }
 
 ._981>span{
